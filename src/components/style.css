@@ -1,0 +1,60 @@
+/* HEADER STYLING */
+.main-header{
+    max-width: 850px;
+   margin: 20px auto;
+   /* border: 2px solid red; */
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+.h1_variant{
+    margin: 0px 0px;
+    width: 550px;
+    font-size: 35px;
+    color: #3c4852;
+    line-height:45px;
+}
+.main-header p{
+    color: #3c4852;
+    font-weight: 500;
+}
+.main-header .header-container span{
+    color: #08c0a0;
+    font-weight: 500;
+}
+
+/* MAIN STYLING */
+ .success-main{
+    position: relative;
+    max-width: 850px;
+    background-color:#fff6e2;
+    margin: 0px auto;
+    margin-top: -20px;
+    border-radius: 20px;
+    padding: 0px 30px;
+    /* overflow: hidden; */
+ }
+ .btn{
+    top:50%;
+    border: none;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 25px;
+    color:gray;
+ }
+ .btn-left{
+    position: absolute;
+    left: 0;
+ }
+ .btn-right{
+    position: absolute;
+    right: 0;
+ }
+ .success-main .card-container{
+    display: flex;
+    /* justify-content: end; */
+    overflow: hidden;
+    scroll-behavior: smooth;
+ }
