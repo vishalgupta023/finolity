@@ -1,0 +1,151 @@
+/* HEADER STYLING */
+*{
+   box-sizing: border-box;
+}
+.main-header{
+    max-width: 850px;
+   margin: 20px auto;
+   /* border: 2px solid red; */
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+.h1_variant{
+    margin: 0px 0px;
+    width: 550px;
+    font-size: 35px;
+    color: #3c4852;
+    line-height:45px;
+}
+.main-header p{
+    color: #3c4852;
+    font-weight: 500;
+}
+.main-header .header-container span{
+    color: #08c0a0;
+    font-weight: 500;
+}
+
+/* MAIN STYLING */
+ .success-main{
+    position: relative;
+    max-width: 900px;
+    background-color:#fff6e2;
+    margin: 0px auto;
+    margin-top: -20px;
+    border-radius: 20px;
+    padding: 0px 30px;
+ }
+ .btn{
+    top:50%;
+    border: none;
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 25px;
+    color:gray;
+ }
+ .btn-left{
+    position: absolute;
+    left: 0;
+ }
+ .btn-right{
+    position: absolute;
+    right: 0;
+ }
+ .success-main .card-container{
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+ }
+
+ /* REVIEW SECTION */
+.review-container{
+   max-width: 880px;
+   margin: 30px auto;
+   cursor: text;
+}
+.review-heading{
+   display: flex;
+   justify-content: space-between;
+}
+ .reviews{
+   display: flex;
+   overflow: hidden;
+   scroll-behavior: smooth;
+ }
+.button{
+   border: 1px solid #ccc;
+   font-size: 25px;
+   margin: 2px;
+   background-color: #fff;
+   border-radius: 5px;
+   color: #555;
+}
+
+@media (max-width:907px){
+   .h1_variant{
+      margin: 0px 0px;
+      width: 550px;
+      font-size: 25px;
+      line-height:30px;
+  }
+  .success-main{
+   max-width: 94%;
+}
+.btn{
+ display: none;
+}
+.success-main .card-container{
+   display: flex;
+   overflow: hidden;
+   /* scroll-behavior: smooth; */
+   overflow-x: scroll;
+   outline: none;
+}
+.success-main .card-container::-webkit-scrollbar{
+   display: none;
+}
+.review-container{
+   max-width: 95%;
+   margin: 10px auto;
+   cursor: text;
+}
+}
+@media(max-width:615px){
+   .main-header{
+      padding-left: 15px;
+      width: 100%;
+     margin: 20px 0px;
+      display: flex;
+     /* flex-wrap: wrap; */
+     justify-content: flex-start;
+  } 
+  .header-container{
+   text-align: start;
+  }
+   .h1_variant{
+      margin: 0px 0px;
+      width: 100%;
+      font-size: 25px;
+      line-height:30px;
+  }
+  .main-header p{
+   color: #3c4852;
+   font-weight: 500;
+   font-size: 14px;
+   width: 80%;
+}
+.button{
+   display: none;
+}
+.reviews{
+   display: flex;
+   overflow: scroll;
+   scroll-behavior: smooth;
+ }
+ .reviews::-webkit-scrollbar{
+   display: none;
+ }
+}

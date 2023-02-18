@@ -1,0 +1,34 @@
+.card-image img{
+    width: 355px;
+    height: 260px;
+    object-fit: cover;
+    margin: 40px 10px;
+    border-radius: 20px;
+}
+
+
+
+@media(max-width:907px){
+    .card-image img{
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        margin: 40px 10px;
+        border-radius: 20px;
+    }
+}
+@media (max-width:615px){
+    .card-image{
+        align-self: center;
+        justify-self: center;
+        min-width: 100%;
+
+    }
+    .card-image img{
+        width: 95%;
+        height: 200px;
+        object-fit: cover;
+        margin: 40px 10px;
+        border-radius: 20px;
+    }
+}
